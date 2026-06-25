@@ -26,6 +26,6 @@ export async function getLeads(): Promise<Lead[]> {
 }
 
 export async function updateLeadStatus(id: string, status: string) {
-  const { error } = await supabase.from('leads').update({ status }).eq('id', id)
+  const { error } = await supabase.from('versa_leads').update({ status }).eq('id', id)
   if (error) console.error(error)
 }
