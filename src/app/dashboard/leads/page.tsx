@@ -15,7 +15,7 @@ const SOURCE_LABELS: Record<string, string> = {
   "ipb-kochi": "IPB Kochi",
   "versa-digital": "Versa Digital",
   "versa-global": "Versa Global",
-  "elyra-ai": "Elyra AI",
+  "versa-finance": "Versa Finance",
 }
 
 export default function LeadsPage() {
@@ -87,7 +87,7 @@ export default function LeadsPage() {
             <option value="ipb-kochi">IPB Kochi</option>
             <option value="versa-digital">Versa Digital</option>
             <option value="versa-global">Versa Global</option>
-            <option value="elyra-ai">Elyra AI</option>
+            <option value="versa-finance">Versa Finance</option>
           </select>
           <select value={statusFilter} onChange={(e) => { setStatusFilter(e.target.value); setPage(1) }}
             className="border border-gray-200 rounded-xl px-4 py-2.5 text-sm outline-none focus:border-[#C9A84C] bg-white text-[#1B2A4A]">

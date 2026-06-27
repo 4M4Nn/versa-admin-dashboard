@@ -6,11 +6,11 @@ import { getLeads, type Lead } from "@/lib/supabase"
 import { useRouter } from "next/navigation"
 
 const websites = [
-  { id: "versa-main", name: "Versa Main", url: "https://main-future-optima-s-projects.vercel.app", description: "Main Versa Growth Ventures website", color: "#4A7C59" },
-  { id: "ipb-kochi", name: "IPB Kochi", url: "https://versa-ipb-kochi-future-optima-s-projects.vercel.app", description: "Banking institute — 13,200+ students placed", color: "#003087" },
-  { id: "versa-digital", name: "Versa Digital", url: "https://versa-digital-marketing-future-optima-s-projects.vercel.app", description: "AI-powered digital marketing agency", color: "#00D4FF" },
-  { id: "versa-global", name: "Versa Global", url: "https://versa-global-education-future-optima-s-projects.vercel.app", description: "Study abroad consultancy — 60+ countries", color: "#1B2A4A" },
-  { id: "versa-finance", name: "Versa Finance", url: "https://finance.versagrowthventures.com", description: "Financial services — stocks, MF, insurance", color: "#00C9A7" },
+  { id: "versa-main", name: "Versa Main", url: "https://versagrowthventures.vercel.app", description: "Main Versa Growth Ventures website", color: "#4A7C59" },
+  { id: "ipb-kochi", name: "IPB Kochi", url: "https://ipb-kochi.vercel.app", description: "Banking institute — 13,200+ students placed", color: "#003087" },
+  { id: "versa-digital", name: "Versa Digital", url: "https://versa-digital.vercel.app", description: "AI-powered digital marketing agency", color: "#00D4FF" },
+  { id: "versa-global", name: "Versa Global", url: "https://versa-global-education.vercel.app", description: "Study abroad consultancy — 60+ countries", color: "#1B2A4A" },
+  { id: "versa-finance", name: "Versa Finance", url: "https://finance-mauve-seven.vercel.app", description: "Financial services — stocks, MF, insurance", color: "#00C9A7" },
 ]
 
 export default function WebsitesPage() {

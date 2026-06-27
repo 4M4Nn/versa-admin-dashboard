@@ -7,10 +7,10 @@ import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, R
 
 const SOURCE_COLORS: Record<string, string> = {
   "versa-main": "#4A7C59",
-  "ipb-kochi": "#C9A84C",
+  "ipb-kochi": "#003087",
   "versa-digital": "#00D4FF",
   "versa-global": "#1B2A4A",
-  "elyra-ai": "#6E44FF",
+  "versa-finance": "#00C9A7",
 }
 
 export default function DashboardPage() {
@@ -61,7 +61,7 @@ export default function DashboardPage() {
     <div className="p-8">
       <div className="mb-8">
         <h1 className="text-2xl font-bold text-[#1B2A4A]">Dashboard Overview</h1>
-        <p className="text-[#6B7280] text-sm mt-1">All leads from all 5 Versa websites</p>
+        <p className="text-[#6B7280] text-sm mt-1">All leads from all 5 active Versa websites</p>
       </div>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-8">
         {stats.map((stat, i) => (
